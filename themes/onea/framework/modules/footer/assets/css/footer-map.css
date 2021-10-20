@@ -1,0 +1,133 @@
+/* ==========================================================================
+   Footer styles - begin
+   ========================================================================== */
+textarea {
+  padding: 13px 25px !important;
+  margin-top: 10px !important;
+  font-size: 10px !important;
+  text-transform: none !important;
+  letter-spacing: .16em !important;
+  font-weight: 400 !important;
+}
+
+/* ==========================================================================
+   Footer style - begin
+   ========================================================================== */
+.eltdf-page-footer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  z-index: 100;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eltdf-page-footer p {
+  margin: 13px 0;
+}
+
+.no-touch body:not(.error404) .eltdf-page-footer.eltdf-footer-uncover {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  -webkit-transition: left 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1);
+  -o-transition: left 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1);
+  transition: left 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1);
+}
+
+@media only screen and (max-width: 1024px) {
+  .no-touch body:not(.error404) .eltdf-page-footer.eltdf-footer-uncover {
+    position: relative;
+    height: auto !important;
+  }
+}
+
+.eltdf-right-side-menu-opened .eltdf-page-footer.eltdf-footer-uncover {
+  left: -270px;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #000;
+  border-top: 0 solid #cccccc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-alignment-center {
+  text-align: center;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-alignment-left {
+  text-align: left;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-alignment-right {
+  text-align: right;
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .eltdf-page-footer .eltdf-footer-top-holder .eltdf-grid-col-2 {
+    width: 50%;
+    float: left;
+  }
+  .eltdf-page-footer .eltdf-footer-top-holder .eltdf-grid-col-2:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-inner {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-inner.eltdf-grid {
+  padding: 138px 0 10px;
+}
+
+.eltdf-page-footer .eltdf-footer-top-holder .eltdf-footer-top-inner.eltdf-full-width {
+  padding: 138px 40px 10px;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #000;
+  border-top: 0 solid #cccccc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder .eltdf-footer-bottom-inner {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 1px solid #414141;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder .eltdf-footer-bottom-inner.eltdf-grid {
+  padding: 19px 0;
+}
+
+.eltdf-page-footer .eltdf-footer-bottom-holder .eltdf-footer-bottom-inner.eltdf-full-width {
+  padding: 19px 40px;
+}
+
+.eltdf-page-footer.eltdf-footer-dark-text * {
+  color: #000;
+}
+
+/* ==========================================================================
+   Footer style - end
+   ========================================================================== */
+/* ==========================================================================
+   Footer styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=footer-map.css.map */

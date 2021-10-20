@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1024px){
+.eltdf-content .eltdf-content-inner > .eltdf-container > .eltdf-container-inner, .eltdf-content .eltdf-content-inner > .eltdf-full-width > .eltdf-full-width-inner { padding: 0px 10px 0px 10px;}}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+}
+
+@media only screen and (min-width: 681px) and (max-width: 768px){
+}
+
+@media only screen and (max-width: 680px){
+h1 { font-size: 38px;}h2 { font-size: 25px;}h4 { font-size: 20px;}body, p { font-size: 12px;}}

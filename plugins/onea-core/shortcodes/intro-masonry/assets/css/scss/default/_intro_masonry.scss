@@ -1,0 +1,121 @@
+/* ==========================================================================
+   Intro Masonry shortcode style - begin
+   ========================================================================== */
+
+.eltdf-intro-masonry {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	z-index: 1111;
+	overflow: hidden;
+	
+	@keyframes dotPulse {
+		to{
+			opacity:0;
+		}
+	}
+	
+	.eltdf-im-preloader {
+		position: fixed;
+		top:50%;
+		left: 50%;
+		opacity: 1;
+		@include eltdfTransform(translate(-50%,-50%));
+		@include eltdfAnimation(dotPulse .65s alternate infinite ease-in-out);
+		
+		&:before {
+			content: '';
+			display: block;
+			width:30px;
+			height: 30px;
+			background: currentColor;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+		}
+	}
+	
+	.eltdf-masonry-list-wrapper {
+		.eltdf-masonry-grid-sizer {
+			width:14.2857143%;
+		}
+	}
+	
+	.eltdf-masonry-list-wrapper {
+		display:-ms-grid;
+		display: grid;
+		-ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+		@include laptop-landscape {
+			-ms-grid-columns:1fr 1fr 1fr 1fr !important;
+			grid-template-columns: 1fr 1fr 1fr 1fr !important;
+		}
+
+		@include phone-landscape {
+			-ms-grid-columns:1fr 1fr 1fr !important;
+			grid-template-columns: 1fr 1fr 1fr !important;
+		}
+	}
+	
+	@keyframes eltdfIMAppear {
+		to {
+			opacity: 1;
+		}
+	}
+	
+	.eltdf-im-image {
+		opacity: 0;
+		
+		&.animated {
+			@include eltdfAnimation(eltdfIMAppear .35s forwards);
+		}
+		
+		&.eltdf-masonry-size-large-width-height {
+			-ms-grid-row-span: 2;
+			-ms-grid-column-span: 2;
+			grid-column-end: span 2;
+			grid-row-end: span 2;
+		}
+
+		&.eltdf-masonry-size-large-width {
+			-ms-grid-column-span: 2;
+			grid-column-end: span 2;
+		}
+
+		&.eltdf-masonry-size-large-height {
+			-ms-grid-row-span: 2;
+			grid-row-end: span 2;
+		}
+		
+		a, img {
+			position: relative;
+			display: block;
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+		
+		&.eltdf-fixed-masonry-item {
+			
+			.eltdf-im-image-inner,
+			a {
+				height: 100%;
+			}
+		}
+	}
+	
+	.eltdf-im-image-inner {
+		@include eltdfRelativeHolderLayout();
+		height: 100%;
+	}
+	
+}
+
+.eltdf-item-move-up {
+	@include eltdfTransition(transform .5s .65s cubic-bezier(0.165, 0.84, 0.44, 1));
+}
+/* ==========================================================================
+   Intro Masonry shortcode style - end
+   ========================================================================== */

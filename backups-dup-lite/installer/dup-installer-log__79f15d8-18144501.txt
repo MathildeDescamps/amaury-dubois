@@ -1,0 +1,1422 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:57:54
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.31                                |7.4.19
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-10-18 14:45:01
+WP VERSION__________: 5.8.1
+DUP VERSION_________: 1.4.3
+DB__________________: 10.5.12
+DB TABLES___________: 103
+DB ROWS_____________: 175,059
+DB FILE SIZE________: 80.84MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.19 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19
+DOC ROOT____________: "D:/laragon/www/amaury-dubois"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://amaury-dubois.local/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/laragon/www/amaury-dubois/20211018_amauryduboisshop_[HASH]_20211018144501_archive.zip"
+SIZE________________: 657.81MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/laragon/www/amaury-dubois/20211018_amauryduboisshop_[HASH]_20211018144501_archive.zip"
+SIZE________________: 657.81MBFile timestamp set to Current: 2021-10-18 14:58:25
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 02:58:25 - RUNTIME: 30.9667 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 03:00:19
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.33 -- Build Server: 10.5.12
+FILE SIZE:	dup-database__[HASH].sql (37.15MB)
+TIMEOUT:	5000
+MAXPACK:	536870912
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[D:/laragon/www/amaury-dubois/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.33] is less than the build version [10.5.12].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	937
+
+wp_ac_abandoned_cart_history_lite: (2)
+wp_ac_email_templates_lite: (1)
+wp_ac_guest_abandoned_cart_history_lite: (9)
+wp_ac_sent_history_lite: (5)
+wp_actionscheduler_actions: (6035)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (7)
+wp_actionscheduler_logs: (18097)
+wp_commentmeta: (2259)
+wp_comments: (1040)
+wp_duplicator_packages: (0)
+wp_icl_content_status: (0)
+wp_icl_core_status: (0)
+wp_icl_flags: (64)
+wp_icl_languages: (64)
+wp_icl_languages_translations: (4096)
+wp_icl_locale_map: (2)
+wp_icl_message_status: (0)
+wp_icl_mo_files_domains: (55)
+wp_icl_node: (0)
+wp_icl_reminders: (0)
+wp_icl_string_batches: (0)
+wp_icl_string_packages: (16)
+wp_icl_string_pages: (0)
+wp_icl_string_positions: (271)
+wp_icl_string_status: (0)
+wp_icl_string_translations: (25847)
+wp_icl_string_urls: (0)
+wp_icl_strings: (26984)
+wp_icl_translate: (8681)
+wp_icl_translate_job: (211)
+wp_icl_translation_batches: (34)
+wp_icl_translation_downloads: (0)
+wp_icl_translation_status: (919)
+wp_icl_translations: (3048)
+wp_links: (0)
+wp_mailchimp_carts: (5)
+wp_mailchimp_jobs: (1)
+wp_options: (970)
+wp_postmeta: (57242)
+wp_posts: (3051)
+wp_revslider_css: (109)
+wp_revslider_css_bkp: (47)
+wp_revslider_layer_animations: (0)
+wp_revslider_layer_animations_bkp: (0)
+wp_revslider_navigations: (2)
+wp_revslider_navigations_bkp: (0)
+wp_revslider_sliders: (16)
+wp_revslider_sliders_bkp: (0)
+wp_revslider_slides: (16)
+wp_revslider_slides_bkp: (0)
+wp_revslider_static_slides: (14)
+wp_revslider_static_slides_bkp: (0)
+wp_shortpixel_folders: (0)
+wp_shortpixel_meta: (0)
+wp_term_relationships: (6418)
+wp_term_taxonomy: (250)
+wp_termmeta: (285)
+wp_terms: (250)
+wp_trp_dictionary_fr_fr_en_gb: (399)
+wp_trp_gettext_en_gb: (901)
+wp_trp_gettext_fr_fr: (3634)
+wp_trp_original_meta: (105)
+wp_trp_original_strings: (399)
+wp_usermeta: (3612)
+wp_users: (76)
+wp_wc_admin_note_actions: (65)
+wp_wc_admin_notes: (58)
+wp_wc_category_lookup: (20)
+wp_wc_customer_lookup: (75)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (73)
+wp_wc_order_stats: (68)
+wp_wc_order_tax_lookup: (68)
+wp_wc_product_meta_lookup: (1396)
+wp_wc_reserved_stock: (3)
+wp_wc_tax_rate_classes: (4)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (2)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (1686)
+wp_woocommerce_order_items: (209)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (15)
+wp_woocommerce_shipping_zone_locations: (56)
+wp_woocommerce_shipping_zone_methods: (4)
+wp_woocommerce_shipping_zones: (2)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (67)
+wp_wpr_rucss_resources: (0)
+wp_wpr_rucss_used_css: (0)
+wp_yith_wcwl: (177)
+wp_yith_wcwl_lists: (38)
+wp_yoast_indexable: (2517)
+wp_yoast_indexable_hierarchy: (1383)
+wp_yoast_migrations: (21)
+wp_yoast_primary_term: (53)
+wp_yoast_seo_links: (1924)
+wp_yoast_seo_meta: (785)
+Removed '1606' cache/transient rows
+
+INSERT DATA RUNTIME: 18.7809 sec.
+STEP-2 COMPLETE @ 03:00:38 - RUNTIME: 18.9278 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:01:02
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Amaury Dubois - Shop"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/sc2buqp2035/projects/amodubshop"
+path_new______________: "D:/laragon/www/amaury-dubois"
+siteurl_______________: "http://amaury-dubois.local"
+url_old_______________: "https://shop.amaury-dubois.com"
+url_new_______________: "http://amaury-dubois.local"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_ac_abandoned_cart_history_lite"_______________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_ac_email_templates_lite"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_ac_guest_abandoned_cart_history_lite"_________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_ac_sent_history_lite"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:  6035][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS: 18097][PG:   6][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:  2259][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:  1040][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_content_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_core_status"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_flags"____________________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_languages"________________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_languages_translations"___________________[ROWS:  4096][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_locale_map"_______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_message_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_mo_files_domains"_________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_node"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_reminders"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_batches"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_packages"__________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_string_pages"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_positions"_________________________[ROWS:   271][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_string_status"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_translations"______________________[ROWS: 25847][PG:   8][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_string_urls"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_strings"__________________________________[ROWS: 26984][PG:   8][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_translate"________________________________[ROWS:  8681][PG:   3][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_translate_job"____________________________[ROWS:   211][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_translation_batches"______________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_translation_downloads"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_translation_status"_______________________[ROWS:   919][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_icl_translations"_____________________________[ROWS:  3048][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailchimp_carts"______________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_mailchimp_jobs"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   970][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 57242][PG:  17][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  3051][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_shortpixel_folders"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_shortpixel_meta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:  6418][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:   250][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:   285][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:   250][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_trp_dictionary_fr_fr_en_gb"___________________[ROWS:   399][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_trp_gettext_en_gb"____________________________[ROWS:   901][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_trp_gettext_fr_fr"____________________________[ROWS:  3634][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_trp_original_meta"____________________________[ROWS:   105][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_trp_original_strings"_________________________[ROWS:   399][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:  3612][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:    76][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    58][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:    75][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:    73][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:  1396][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:  1686][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:   209][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:    56][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:    67][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_wpr_rucss_resources"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpr_rucss_used_css"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yith_wcwl"____________________________________[ROWS:   177][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_yith_wcwl_lists"______________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:  2517][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:  1383][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:    53][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:  1924][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+
+EVALUATE TABLE: "wp_yoast_seo_meta"_______________________________[ROWS:   785][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/sc2buqp2035/projects/amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  2:"\/home\/sc2buqp2035\/projects\/amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  3:"%2Fhome%2Fsc2buqp2035%2Fprojects%2Famodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  4:"\home\sc2buqp2035\projects\amodubshop" ===========> "D:/laragon/www/amaury-dubois"
+	SEARCH  5:"\\home\\sc2buqp2035\\projects\\amodubshop" =======> "D:\/laragon\/www\/amaury-dubois"
+	SEARCH  6:"%5Chome%5Csc2buqp2035%5Cprojects%5Camodubshop" ===> "D%3A%2Flaragon%2Fwww%2Famaury-dubois"
+	SEARCH  7:"//shop.amaury-dubois.com" ========================> "//amaury-dubois.local"
+	SEARCH  8:"\/\/shop.amaury-dubois.com" ======================> "\/\/amaury-dubois.local"
+	SEARCH  9:"%2F%2Fshop.amaury-dubois.com" ====================> "%2F%2Famaury-dubois.local"
+	SEARCH 10:"https://amaury-dubois.local" =====================> "http://amaury-dubois.local"
+	SEARCH 11:"https:\/\/amaury-dubois.local" ===================> "http:\/\/amaury-dubois.local"
+	SEARCH 12:"https%3A%2F%2Famaury-dubois.local" ===============> "http%3A%2F%2Famaury-dubois.local"
+--------------------------------------
+SCANNED:	Tables:103 	|	 Rows:186318 	|	 Cells:1565493 
+UPDATED:	Tables:17 	|	 Rows:7877 	|	 Cells:11120 
+ERRORS:		0 
+RUNTIME:	5.110000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost/phpmyadmin""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:01:07 - RUNTIME: 5.1678 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================

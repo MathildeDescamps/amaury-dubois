@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Skew Section styles - begin
+   ========================================================================== */
+textarea {
+  padding: 13px 25px !important;
+  margin-top: 10px !important;
+  font-size: 10px !important;
+  text-transform: none !important;
+  letter-spacing: .16em !important;
+  font-weight: 400 !important;
+}
+
+/* ==========================================================================
+# Skewed Section responsive style - begin
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-disable-header-ss-on-mobile .eltdf-header-skewed-section-effect {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-disable-title-ss-on-mobile .eltdf-title-skewed-section-effect,
+  .eltdf-disable-ss-on-mobile .vc_row .eltdf-skewed-section-effect {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+# Skewed Section responsive style - end
+========================================================================== */
+/* ==========================================================================
+   Skew Section styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=skewed-section-responsive-map.css.map */

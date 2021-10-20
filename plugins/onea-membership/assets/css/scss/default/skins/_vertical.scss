@@ -1,0 +1,72 @@
+.eltdf-membership-dashboard-nav-holder,
+.eltdf-membership-dashboard-content-holder {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    box-sizing: border-box;
+}
+.eltdf-membership-dashboard-nav-holder {
+    width: 30%;
+    padding: 0 15px 0 0;
+    margin: 0 0 35px;
+
+    ul {
+        padding: 0 15px 0 0;
+        margin: 0;
+        list-style: none;
+        border-right: 1px solid #e1e1e1;
+
+        li {
+            margin: 0 0 7px;
+            padding: 0;
+            &:last-child {
+                margin: 0;
+
+            }
+
+            a {
+                font-family: $default-heading-font;
+                font-weight: 600;
+                font-size: 14px;
+            }
+
+            .eltdf-dash-icon {
+                margin-right: 5px;
+            }
+        }
+    }
+
+}
+
+.eltdf-membership-dashboard-content-holder {
+    width: 70%;
+    padding: 0 0 0 30px;
+    margin: 0 0 60px;
+
+    .eltdf-profile-image{
+        border-radius: 100%;
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+
+        img{
+            display: block;
+            position: relative;
+        }
+    }
+
+    .eltdf-membership-dashboard-page-title {
+        margin: 0 0 23px;
+    }
+
+    .eltdf-dashboard-input-holder label {
+        font-family: $default-heading-font;
+        font-weight: 600;
+    }
+
+    .eltdf-membership-dashboard-page-content p span {
+        color: $default-heading-color;
+        font-weight: 400;
+    }
+}

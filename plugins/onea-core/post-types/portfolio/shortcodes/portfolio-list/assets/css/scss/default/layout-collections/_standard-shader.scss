@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Portfolio Item Layout - Standard Shader style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-list-holder {
+	
+	&.eltdf-pl-standard-shader {
+		
+		article {
+			
+			@include eltdfImageMoveHoverStyle();
+			
+			.eltdf-pli-image {
+				overflow: hidden;
+			}
+			
+			.eltdf-pli-link {
+				z-index: 2;
+			}
+		}
+		
+		.eltdf-pli-text-holder {
+			@include eltdfRelativeHolderLayout();
+			margin: 26px 0 0;
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Item Layout - Standard Shader style - end
+   ========================================================================== */

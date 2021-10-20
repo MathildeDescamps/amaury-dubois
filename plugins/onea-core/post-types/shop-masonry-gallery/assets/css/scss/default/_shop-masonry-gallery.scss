@@ -1,0 +1,380 @@
+/* ==========================================================================
+   Shop Masonry Gallery shortcodes style - begin
+   ========================================================================== */
+
+.eltdf-shop-masonry-gallery-holder {
+	@include eltdfRelativeHolderLayout();
+	
+	.eltdf-smg-grid-gutter {
+		width: 0;
+	}
+
+    $columns_space_label: ('no', 'tiny', 'small', 'normal', 'medium', 'large', 'huge' );
+    $columns_space_width: (0, 5, 10, 15, 20, 25, 40);
+
+    @for $i from 0 to length($columns_space_label) {
+        .eltdf-#{nth($columns_space_label,$i+1)}-space {
+            $column_width: nth($columns_space_width, $i+1);
+            $column_width_margin: $column_width * 2;
+
+            .eltdf-smg-grid-sizer {
+                padding: 0 #{$column_width}px;
+            }
+        }
+    }
+
+    .eltdf-smg-grid-sizer {
+        width: 20%;
+        box-sizing: border-box;
+    }
+	
+	.eltdf-smg-item {
+		position: relative;
+		width: 20%;
+		z-index: 1;
+		box-sizing: border-box;
+
+        &.eltdf-smg-square-big {
+            width: 40%;
+        }
+
+        &.eltdf-smg-rectangle-portrait-big {
+            width: 40%;
+        }
+
+        &.eltdf-smg-rectangle-landscape {
+            width: 40%;
+
+            .eltdf-smg-image {
+
+                img {
+                    max-height: inherit;
+                }
+            }
+        }
+
+        .eltdf-smg-content {
+            @include eltdfRelativeHolderLayout();
+            height: 100%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .eltdf-smg-image {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            @include eltdfTransform(translateZ(0px));
+
+            a {
+                display: inline-block;
+                vertical-align: middle;
+                @include eltdfTransition(all .32s ease-in-out);
+
+                img {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        &:not(.eltdf-smg-stack-slider-holder) {
+	
+	        @include eltdfImageMoveHoverStyle();
+	        
+	        .eltdf-smg-item-outer {
+		        @include eltdfAbsoluteHolderLayout();
+		
+		        .eltdf-smg-item-inner {
+			        @include eltdfAbsoluteHolderLayout();
+			        z-index: 111;
+			        background-color: rgba(255, 255, 255, 0.9);
+			        opacity: 0;
+			        @include eltdfTransition(opacity .4s cubic-bezier(0.76, 0.14, 0, 0.74));
+			
+			        .eltdf-smg-item-content {
+				        position: absolute;
+				        width: 100%;
+				        top:50%;
+				        text-align: center;
+				        @include eltdfTransform(translateY(-50%));
+						
+				        .eltdf-smg-title {
+					        margin: 0 0 10px;
+				        }
+				
+				        .eltdf-smg-category {
+					        margin-top: 3px;
+					        display: block;
+					        font-size: 10px;
+					        text-transform: uppercase;
+					        font-weight: 500;
+					        letter-spacing: .16em;
+					        line-height: 21px;
+				        }
+				        
+				        .eltdf-smg-price {
+					        margin-top:11px;
+					        
+					        ins {
+						        text-decoration: none;
+					        }
+				        }
+						
+				        .eltdf-smg-icons-holder {
+					        @include eltdfInlineFlexContainer(null, null, row-reverse);
+					        padding: 0 8px;
+					        border: 1px solid;
+					        margin-top: 22px;
+					
+					        > .eltdf-smg-add-to-cart a.button,
+					        > .yith-quickview-button,
+					        > .yith-wcwl-add-to-wishlist,
+					        .added_to_cart {
+						        height: 43px;
+						        width: 18px;
+						        z-index: 300;
+						        overflow: hidden;
+						        padding: 0 8px;
+						        font-size: 0;
+						        vertical-align: bottom;
+						        margin: 0;
+						        border: 0;
+						        box-sizing: initial;
+						        @include eltdfTransition(opacity .2s ease-out);
+						
+						        &:before, &:after {
+							        content: initial;
+							        color:inherit;
+						        }
+						
+						        &:hover {
+							        opacity: .8;
+						        }
+					        }
+					
+					        > .eltdf-smg-add-to-cart {
+						        a.button {
+							        bottom: 0;
+							        right: -1px;
+							        display: inline-block;
+							        background: none;
+							        color: $first-main-color;
+							        box-sizing: content-box;
+							
+							        &.added {
+								        display: none;
+							        }
+							
+							        &:after {
+								        font-family: 'Ionicons';
+								        content: "\f110";
+								        font-size: 19px;
+								        line-height: 42px;
+								        font-weight: 500;
+							        }
+						        }
+						
+						        .added_to_cart {
+							        color: unset;
+							        background-color: unset;
+							        font-weight: unset;
+							
+							        &:after {
+								        content: "Z";
+								        font-size: 18px;
+								        line-height: 46px;
+								        font-family: 'ElegantIcons';
+							        }
+						        }
+					        }
+					
+					        > .yith-quickview-button {
+						        bottom: 0;
+						
+						        &:before {
+							        content: "\f06e";
+							        font-size: 17px;
+							        line-height: 43px;
+							        font-family: 'FontAwesome';
+						        }
+					        }
+					
+					        > .yith-wcwl-add-to-wishlist {
+						        bottom: 0;
+						
+						        > div {
+							        height: 100%;
+							
+							        a {
+								        height: 100%;
+								
+								        &:before {
+									        font-size: 16px;
+									        line-height: 45px;
+									        padding: 0;
+									        margin: 0;
+								        }
+							        }
+						        }
+					        }
+				        }
+			        }
+		        }
+	        }
+	
+	        &:hover {
+		        .eltdf-smg-item-outer .eltdf-smg-item-inner {
+			        opacity: 1;
+		        }
+	        }
+        }
+
+		&.eltdf-smg-banner {
+
+            .eltdf-smg-banner-overlay-holder {
+                @include eltdfAbsoluteHolderLayout();
+	            z-index: 112;
+
+                .eltdf-smg-banner-text-holder {
+                    @include eltdfTableLayout();
+
+                    .eltdf-smg-banner-text-inner {
+                        @include eltdfTableCellLayout();
+                        vertical-align: bottom;
+                        padding: 50px 55px;
+
+                        .eltdf-smg-banner-title {
+                            margin-bottom: 10px;
+                            color: $default-heading-color;
+                        }
+                    }
+                }
+            }
+			
+			.eltdf-info-box-data-hidden {
+				display: none;
+				pointer-events: none;
+			}
+			
+			.eltdf-info-box-hidden {
+				@include eltdfTransform(translateY(100%));
+			}
+			
+			.eltdf-info-box-animate {
+				animation: infoShow 1s forwards;
+			}
+			
+			@keyframes infoShow {
+				0%, 100% {
+					opacity: 1;
+					@include eltdfTransform(translateY(0));
+				}
+				50% {
+					opacity: 0;
+					@include eltdfTransform(translateY(5px));
+				}
+			}
+		}
+	}
+    
+    /* ==========================================================================
+   Masonry Stack Slider style
+   */
+    
+    .eltdf-smg-stack-slider-holder {
+        @include eltdfRelativeHolderLayout();
+        display: block;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+	
+	    .eltdf-smg-item-outer, .eltdf-smg-item-inner, .eltdf-smg-item-content, .eltdf-smg-banner-image-holder { //Layout fixes
+		    height:100%;
+		    width:100%;
+	    }
+            
+        .eltdf-stack-slider {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            display: block;
+            
+            .eltdf-stack-slide {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                z-index: 22;
+                will-change: transform;
+            }
+	        
+            .eltdf-stack-slide img {
+                height: 100%;
+	            width:100%;
+	            object-fit: cover; 
+            }
+        }
+        
+        .eltdf-slider-nav {
+            
+            .eltdf-prev,
+            .eltdf-next {
+                position: absolute;
+	            bottom: 0;
+                z-index: 223;
+                color: $default-text-color;
+	            background-color: #fff;
+                cursor: pointer;
+	            width: 57px;
+	            height: 57px;
+	            line-height: 57px;
+                text-align: center;
+                
+                span {
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-size: 20px;
+                    line-height: 1em;
+                    text-align: center;
+	                @include eltdfTransition(opacity .2s);
+                }
+            }
+	
+	        .eltdf-prev {
+		        right: 57px;
+		        left: auto;
+		
+		        &:hover {
+			        span {
+				        opacity: .7;
+			        }
+		        }
+	        }
+	
+	        .eltdf-next {
+		        right: 0;
+		
+		        &:hover {
+			        span {
+				        opacity: .7;
+			        }
+		        }
+	        }
+        }
+        
+        .prepMoveBack {
+            transform: translateX(100%);
+        }
+        
+        .disabled {
+            pointer-events: none;
+        }
+    }
+}
+/* ==========================================================================
+   Shop Masonry Gallery shortcodes style - end
+   ========================================================================== */

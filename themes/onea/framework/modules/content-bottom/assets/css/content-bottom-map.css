@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Content Bottom styles - begin
+   ========================================================================== */
+textarea {
+  padding: 13px 25px !important;
+  margin-top: 10px !important;
+  font-size: 10px !important;
+  text-transform: none !important;
+  letter-spacing: .16em !important;
+  font-weight: 400 !important;
+}
+
+/* ==========================================================================
+   #Content bottom styles - begin
+   ========================================================================== */
+.eltdf-content-bottom .eltdf-content-bottom-inner {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eltdf-content-bottom .eltdf-content-bottom-inner.eltdf-grid {
+  padding: 20px 0;
+}
+
+.eltdf-content-bottom .eltdf-content-bottom-inner.eltdf-full-width {
+  padding: 20px 40px;
+}
+
+/* ==========================================================================
+   #Content bottom styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Content Bottom styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=content-bottom-map.css.map */

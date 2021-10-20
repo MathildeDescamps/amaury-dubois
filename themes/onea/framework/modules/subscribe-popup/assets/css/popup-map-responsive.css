@@ -1,0 +1,99 @@
+/* ==========================================================================
+   Subscribe Popup responsive styles - begin
+   ========================================================================== */
+textarea {
+  padding: 13px 25px !important;
+  margin-top: 10px !important;
+  font-size: 10px !important;
+  text-transform: none !important;
+  letter-spacing: .16em !important;
+  font-weight: 400 !important;
+}
+
+/* ==========================================================================
+# Subscribe Pop-up style responsive - begin
+========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner {
+    width: 63%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner {
+    width: 90%;
+    min-height: auto;
+    min-width: auto;
+  }
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner .eltdf-sp-content-text {
+    top: 29%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner {
+    min-height: 450px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-subscribe-popup-holder .eltdf-sp-content-container {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .eltdf-subscribe-popup-holder .eltdf-sp-background {
+    display: none;
+  }
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner {
+    width: 90%;
+    min-height: auto;
+    min-width: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner .eltdf-sp-prevent {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner .eltdf-sp-content-container {
+    width: 100%;
+    padding: 20px 10px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner .eltdf-sp-content-text {
+    position: relative;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner .eltdf-sp-title {
+    font-size: 30px;
+    margin: 35px 0 35px;
+    padding-bottom: 26px;
+  }
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner .eltdf-sp-close {
+    top: 20px;
+    right: 20px;
+  }
+}
+
+/* ==========================================================================
+# Subscribe Pop-up style responsive - end
+========================================================================== */
+/* ==========================================================================
+   Subscribe Popup responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=popup-map-responsive.css.map */

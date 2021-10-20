@@ -1,0 +1,95 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+textarea {
+  padding: 13px 25px !important;
+  margin-top: 10px !important;
+  font-size: 10px !important;
+  text-transform: none !important;
+  letter-spacing: .16em !important;
+  font-weight: 400 !important;
+}
+
+/* ==========================================================================
+   Shortcodes styles
+   ========================================================================== */
+.eltdf-instagram-list-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  clear: both;
+}
+
+.eltdf-instagram-list-holder:not(.eltdf-il-one-column) .eltdf-il-item {
+  float: left;
+}
+
+.eltdf-instagram-list-holder .eltdf-instagram-carousel .eltdf-il-item {
+  width: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  float: none !important;
+}
+
+.eltdf-instagram-list-holder .eltdf-il-item {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eltdf-instagram-list-holder.eltdf-il-two-columns .eltdf-il-item {
+  width: 50%;
+}
+
+@media only screen and (min-width: 1025px) {
+  .eltdf-instagram-list-holder.eltdf-il-two-columns .eltdf-il-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+.eltdf-instagram-list-holder.eltdf-il-three-columns .eltdf-il-item {
+  width: 33.33333%;
+}
+
+@media only screen and (min-width: 1201px) {
+  .eltdf-instagram-list-holder.eltdf-il-three-columns .eltdf-il-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+.eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item {
+  width: 25%;
+}
+
+@media only screen and (min-width: 1281px) {
+  .eltdf-instagram-list-holder.eltdf-il-four-columns .eltdf-il-item:nth-child(4n+1) {
+    clear: both;
+  }
+}
+
+.eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item {
+  width: 20%;
+}
+
+@media only screen and (min-width: 1281px) {
+  .eltdf-instagram-list-holder.eltdf-il-five-columns .eltdf-il-item:nth-child(5n+1) {
+    clear: both;
+  }
+}
+
+.eltdf-instagram-list-holder.eltdf-il-six-columns .eltdf-il-item {
+  width: 16.66667%;
+}
+
+@media only screen and (min-width: 1281px) {
+  .eltdf-instagram-list-holder.eltdf-il-six-columns .eltdf-il-item:nth-child(6n+1) {
+    clear: both;
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/onea-instagram-feed/assets/css/shortcodes-map.css.map */

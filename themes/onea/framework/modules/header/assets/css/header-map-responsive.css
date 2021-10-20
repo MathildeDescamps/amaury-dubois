@@ -1,0 +1,287 @@
+/* ==========================================================================
+   Header responsive styles - begin
+   ========================================================================== */
+textarea {
+  padding: 13px 25px !important;
+  margin-top: 10px !important;
+  font-size: 10px !important;
+  text-transform: none !important;
+  letter-spacing: .16em !important;
+  font-weight: 400 !important;
+}
+
+/* ==========================================================================
+   Header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-page-header {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Fixed header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .eltdf-boxed .eltdf-page-header .eltdf-fixed-wrapper.fixed {
+    width: 1000px;
+  }
+}
+
+/* ==========================================================================
+   Fixed header responsive style - end
+   ========================================================================== */
+/*==========================================================================
+# Fullscreen menu responsive style - begin
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-fullscreen-menu-holder .eltdf-fullscreen-menu-holder-inner {
+    padding: 90px 21px 20px;
+  }
+  .eltdf-fullscreen-below-menu-widget-holder,
+  .eltdf-fullscreen-above-menu-widget-holder {
+    right: 10%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-fullscreen-menu-holder .eltdf-fullscreen-menu-holder-inner {
+    padding: 60px 10px;
+  }
+  nav.eltdf-fullscreen-menu > ul > li.has_sub > a > span:after {
+    bottom: 0;
+  }
+  nav.eltdf-fullscreen-menu > ul > li > ul.sub_menu {
+    top: calc(100% - 54px);
+  }
+  nav.eltdf-fullscreen-menu > ul > li > a {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-fullscreen-menu-holder .eltdf-fullscreen-menu-holder-inner {
+    padding: 90px 10px 20px;
+  }
+  nav.eltdf-fullscreen-menu > ul {
+    width: 160px;
+  }
+  nav.eltdf-fullscreen-menu > ul > li.open_sub > a > span:after {
+    width: calc(100% + 30px);
+  }
+  nav.eltdf-fullscreen-menu > ul > li ul.sub_menu li a {
+    left: 45px;
+  }
+  .eltdf-fullscreen-below-menu-widget-holder {
+    bottom: 0;
+  }
+}
+
+/*==========================================================================
+# Fullscreen menu responsive style - end
+========================================================================== */
+/* ==========================================================================
+   Header Vertical - Sliding responsive style - begin
+   ========================================================================== */
+@media only screen and (min-width: 1490px) and (max-width: 1650px) {
+  .eltdf-header-vertical-sliding .eltdf-grid,
+  .eltdf-header-vertical-sliding .eltdf-container-inner,
+  .eltdf-header-vertical-sliding .eltdf-row-grid-section {
+    width: 1100px;
+  }
+}
+
+@media only screen and (min-width: 1314px) and (max-width: 1490px) {
+  .eltdf-header-vertical-sliding .eltdf-grid,
+  .eltdf-header-vertical-sliding .eltdf-container-inner,
+  .eltdf-header-vertical-sliding .eltdf-row-grid-section {
+    width: 1035px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1314px) {
+  .eltdf-header-vertical-sliding .eltdf-grid,
+  .eltdf-header-vertical-sliding .eltdf-container-inner,
+  .eltdf-header-vertical-sliding .eltdf-row-grid-section {
+    width: 900px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .error404.eltdf-header-vertical-sliding .eltdf-content {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-header-vertical-sliding .eltdf-vertical-menu-area {
+    display: none;
+  }
+  .eltdf-header-vertical-sliding .eltdf-content,
+  .eltdf-header-vertical-sliding footer {
+    padding-left: 0;
+  }
+}
+
+/* ==========================================================================
+   Header Vertical - Sliding responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Vertical responsive style - begin
+   ========================================================================== */
+@media only screen and (min-width: 1025px) {
+  .error404.eltdf-header-vertical .eltdf-content {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-header-vertical .eltdf-vertical-menu-area {
+    display: none;
+  }
+  .eltdf-header-vertical .eltdf-content,
+  .eltdf-header-vertical footer {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .eltdf-header-vertical .eltdf-grid,
+  .eltdf-header-vertical .eltdf-container-inner,
+  .eltdf-header-vertical .eltdf-row-grid-section {
+    width: 90%;
+  }
+}
+
+/* ==========================================================================
+   Header Vertical responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Mobile header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-mobile-header {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-paspartu-enabled .eltdf-mobile-header .eltdf-grid {
+    width: 90%;
+  }
+}
+
+/* ==========================================================================
+   Mobile header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .eltdf-boxed .eltdf-page-header .eltdf-sticky-header {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-boxed.eltdf-sticky-up-mobile-header .mobile-header-appear .eltdf-mobile-header-inner {
+    width: 818px;
+    left: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-boxed.eltdf-sticky-up-mobile-header .mobile-header-appear .eltdf-mobile-header-inner {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-boxed.eltdf-sticky-up-mobile-header .mobile-header-appear .eltdf-mobile-header-inner {
+    width: 470px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-boxed.eltdf-sticky-up-mobile-header .mobile-header-appear .eltdf-mobile-header-inner {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .eltdf-boxed.eltdf-sticky-up-mobile-header .mobile-header-appear .eltdf-mobile-header-inner {
+    width: 92%;
+  }
+}
+
+/* ==========================================================================
+   Sticky header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Top header responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-top-bar {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Top header responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=header-map-responsive.css.map */

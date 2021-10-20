@@ -1,0 +1,26 @@
+/* ==========================================================================
+# Linked Images Responsive style - begin
+========================================================================== */
+.eltdf-linked-images {
+
+	&.eltdf-linked-images-three-images,
+	&.eltdf-linked-images-four-images,
+	&.eltdf-linked-images-five-images {
+		@include ipad-landscape {
+			.eltdf-linked-image-holder {
+				width: 50%;
+				&:nth-child(2n+1) {
+					clear: both;
+				}
+			}
+		}
+		@include phone-landscape {
+			.eltdf-linked-image-holder {
+				width: 100%;
+			}
+		}
+	}
+}
+/* ==========================================================================
+# Linked Images Responsive style - end
+========================================================================== */

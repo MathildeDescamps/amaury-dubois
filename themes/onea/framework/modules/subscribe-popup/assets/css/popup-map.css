@@ -1,0 +1,276 @@
+/* ==========================================================================
+   Subscribe Popup styles - begin
+   ========================================================================== */
+textarea {
+  padding: 13px 25px !important;
+  margin-top: 10px !important;
+  font-size: 10px !important;
+  text-transform: none !important;
+  letter-spacing: .16em !important;
+  font-weight: 400 !important;
+}
+
+/* ==========================================================================
+# Subscribe Pop-up style - begin
+========================================================================== */
+.eltdf-subscribe-popup-holder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 115;
+  visibility: hidden;
+  -webkit-transition: opacity 0.2s ease-out 0.1s, visibility 0s 0.4s;
+  -o-transition: opacity 0.2s ease-out 0.1s, visibility 0s 0.4s;
+  transition: opacity 0.2s ease-out 0.1s, visibility 0s 0.4s;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-shader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 130%;
+  z-index: 1;
+  -webkit-transform-style: flat;
+  transform-style: flat;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.65);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-table {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(246, 246, 246, 0.7);
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-table-cell {
+  position: relative;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-close-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-inner {
+  display: table;
+  margin: 0 auto;
+  width: 45%;
+  min-width: 860px;
+  min-height: 420px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  opacity: 0;
+  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.07);
+  -webkit-transition: transform 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99), opacity 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99);
+  -webkit-transition: opacity 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99), -webkit-transform 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99);
+  transition: opacity 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99), -webkit-transform 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99);
+  -o-transition: transform 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99), opacity 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99);
+  transition: transform 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99), opacity 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99);
+  transition: transform 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99), opacity 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99), -webkit-transform 0.3s cubic-bezier(0.06, 0.47, 0.38, 0.99);
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+@media only screen and (max-width: 1440px) {
+  .eltdf-subscribe-popup-holder .eltdf-sp-inner {
+    width: 70%;
+  }
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: block;
+  color: #000;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-close svg {
+  visibility: visible;
+  height: 16px;
+  width: 17px;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-close svg line {
+  stroke-dashoffset: 40px;
+  stroke-dasharray: 20px;
+  stroke-linecap: butt;
+  -webkit-transition: all 0 linear;
+  -o-transition: all 0 linear;
+  transition: all 0 linear;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-close:hover svg line {
+  stroke-dashoffset: 0;
+  stroke-dasharray: 20px;
+  -webkit-transition: all 0.65s cubic-bezier(0.28, 0.38, 0, 0.81);
+  -o-transition: all 0.65s cubic-bezier(0.28, 0.38, 0, 0.81);
+  transition: all 0.65s cubic-bezier(0.28, 0.38, 0, 0.81);
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-close:hover svg line:nth-of-type(2) {
+  -webkit-transition-delay: .4s;
+  -o-transition-delay: .4s;
+  transition-delay: .4s;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-content-container {
+  display: block;
+  background: #fff;
+  vertical-align: middle;
+  padding: 30px 100px 60px;
+  text-align: left;
+  -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-background {
+  display: block;
+  width: 100%;
+  min-height: 365px;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: solid 10px #fff;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-content-text {
+  position: absolute;
+  top: 35%;
+  left: 6%;
+  width: 47%;
+  text-align: center;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-title {
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 6px;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  color: #000;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-subtitle {
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.eltdf-subscribe-popup-holder .wpcf7 {
+  position: relative;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.eltdf-subscribe-popup-holder .wpcf7 input:not(.wpcf7-submit) {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-prevent {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-prevent-inner > * {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-prevent-input {
+  margin: 0 5px 0 0;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #000;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-prevent-input svg {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.1s ease;
+  -o-transition: opacity 0.1s ease;
+  transition: opacity 0.1s ease;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-prevent-input.eltdf-sp-prevent-clicked svg {
+  opacity: 1;
+}
+
+.eltdf-subscribe-popup-holder .eltdf-sp-prevent-label {
+  font-size: 12px !important;
+  display: inline-block !important;
+  line-height: 14px !important;
+  font-family: "Montserrat", sans-serif !important;
+  text-transform: initial !important;
+  font-weight: 300 !important;
+  color: #000 !important;
+}
+
+/* Popup open/close style */
+.eltdf-sp-opened .eltdf-subscribe-popup-holder {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.eltdf-sp-opened .eltdf-subscribe-popup-holder .eltdf-sp-inner {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: transform 0.8s cubic-bezier(0.26, 0.63, 0, 0.96);
+  -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.26, 0.63, 0, 0.96);
+  transition: -webkit-transform 0.8s cubic-bezier(0.26, 0.63, 0, 0.96);
+  -o-transition: transform 0.8s cubic-bezier(0.26, 0.63, 0, 0.96);
+  transition: transform 0.8s cubic-bezier(0.26, 0.63, 0, 0.96);
+  transition: transform 0.8s cubic-bezier(0.26, 0.63, 0, 0.96), -webkit-transform 0.8s cubic-bezier(0.26, 0.63, 0, 0.96);
+}
+
+/* ==========================================================================
+# Subscribe Pop-up style - end
+========================================================================== */
+/* ==========================================================================
+   Subscribe Popup styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=popup-map.css.map */

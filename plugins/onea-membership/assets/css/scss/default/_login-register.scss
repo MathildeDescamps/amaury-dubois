@@ -1,0 +1,216 @@
+/* Login/Register form - start
+   ========================================================================== */
+
+.eltdf-login-register-holder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(246,246,246,.7);
+    z-index: 1002;
+
+    .eltdf-login-register-content {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        @include eltdfTransform(translateY(-50%));
+    }
+}
+
+
+
+.eltdf-login-register-content.ui-tabs {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 14.1px 0.9px rgba(0, 0, 0, 0.05);
+
+    .eltdf-membership-main-wrapper & {
+        box-shadow: none;
+    }
+
+    &.eltdf-user-not-logged-in{
+        width: 600px;
+
+        ul li {
+            width: 33.33%;
+        }
+
+        .eltdf-login-content-inner,
+        .eltdf-register-content-inner,
+        .eltdf-reset-pass-content-inner{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    ul {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        clear: both;
+
+        li {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            float: left;
+            width: 50%;
+            margin: 0;
+            padding: 0;
+            line-height: 57px;
+            text-align: center;
+            background-color: #f6f6f6;
+
+            &.ui-state-active {
+                background-color: #fff;
+            }
+
+            a {
+                display: block;
+                line-height: inherit;
+                font-weight: 600;
+                color: $default-heading-color;
+                font-family: $default-heading-font;
+                font-size: 18px;
+
+            }
+        }
+    }
+
+    .eltdf-login-content-inner,
+    .eltdf-register-content-inner,
+    .eltdf-reset-pass-content-inner{
+        padding: 30px 35px 39px;
+    }
+
+    .eltdf-register-notice-title {
+        margin: 0 0 30px;
+    }
+
+    .eltdf-lost-pass-remember-holder {
+        display: block;
+        margin-top: 10px;
+        line-height: 16px;
+
+        .eltdf-login-remember {
+            position: relative;
+            display: block;
+            margin-top: 5px;
+
+            & > * {
+                position: relative;
+                display: inline-block;
+                vertical-align: top;
+                font-size: 13px;
+            }
+        }
+
+        label {
+            line-height: 15px;
+        }
+
+        input {
+            margin: 2px 0 0;
+        }
+
+        .eltdf-btn {
+            margin: 10px 0 0;
+            width: 100%;
+        }
+    }
+
+    .eltdf-login-action-btn {
+        position: relative;
+        display: block;
+        margin: 15px 0 0;
+        font-size: 13px;
+        @include eltdfTransition(color 0.2s ease-out);
+
+        &.eltdf-btn {
+            text-align: center;
+        }
+
+        &:hover {
+            color: #000;
+        }
+    }
+
+    input[type="text"],
+    input[type="email"]{
+        margin-bottom: 20px;
+    }
+
+
+    input[type="password"]{
+        margin-bottom: 10px;
+    }
+
+    .eltdf-login-button-holder,
+    .eltdf-register-button-holder,
+    .eltdf-reset-password-button-holder {
+        .eltdf-btn {
+            margin: 10px 0 0;
+            width: 100%;
+            text-transform: capitalize;
+        }
+    }
+
+    .eltdf-login-form-social-login {
+        background-color: #f9f9f9;
+        border-top: 1px solid #ebebeb;
+        padding: 23px 0 34px;
+        margin: 12px 0 0;
+        text-align: center;
+
+        .eltdf-login-social-title{
+            margin-bottom: 15px;
+        }
+
+        form {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        .eltdf-google-login,
+        .eltdf-facebook-login {
+            .eltdf-btn-text {
+                margin: 0;
+            }
+        }
+
+        .eltdf-facebook-login,
+        .eltdf-google-login{
+            padding: 0;
+
+            .eltdf-btn-text{
+                line-height: 30px;
+                padding: 0 12px 0 10px;
+            }
+
+            .eltdf-btn-icon-holder{
+                float: left;
+                font-size: 13px;
+                padding: 6px 10px;
+                border-right: 1px solid rgba(255,255,255,0.2);
+            }
+
+            .eltdf-btn-icon-holder .eltdf-btn-icon-elem{
+                vertical-align: baseline;
+            }
+        }
+
+    }
+}
+
+/* Login/Register form - end
+   ========================================================================== */

@@ -1,0 +1,12 @@
+2021-09-21T09:22:45+00:00 CRITICAL Uncaught Error: Call to undefined method RevSliderFunctions::get_addition() in /home/sc2buqp2035/projects/amodubshop/wp-content/plugins/revslider/admin/views/modals-copyright.php:20
+Stack trace:
+#0 /home/sc2buqp2035/projects/amodubshop/wp-content/plugins/revslider/admin/includes/shortcode_generator/shortcode_generator.class.php(229): require_once()
+#1 /home/sc2buqp2035/projects/amodubshop/wp-includes/class-wp-hook.php(303): RevSliderShortcodeWizard::enqueue_files('')
+#2 /home/sc2buqp2035/projects/amodubshop/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 /home/sc2buqp2035/projects/amodubshop/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/sc2buqp2035/projects/amodubshop/wp-admin/admin-footer.php(78): do_action('admin_footer', '')
+#5 /home/sc2buqp2035/projects/amodubshop/wp-admin/admin.php(297): require_once('/home/sc2buqp20...')
+#6 /home/sc2buqp2035/projects/amodubshop/wp-admin/themes.php(10): require_once('/home/sc2buqp20...')
+#7 {main}
+  thrown dans /home/sc2buqp2035/projects/amodubshop/wp-content/plugins/revslider/admin/views/modals-copyright.php à la ligne 20
+

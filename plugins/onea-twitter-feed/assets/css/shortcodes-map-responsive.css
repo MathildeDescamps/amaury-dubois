@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+textarea {
+  padding: 13px 25px !important;
+  margin-top: 10px !important;
+  font-size: 10px !important;
+  text-transform: none !important;
+  letter-spacing: .16em !important;
+  font-weight: 400 !important;
+}
+
+/* ==========================================================================
+   Shortcodes responsive styles
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/onea-twitter-feed/assets/css/shortcodes-map-responsive.css.map */
