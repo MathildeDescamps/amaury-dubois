@@ -1,6 +1,0 @@
-#payment .payment_methods li .payplug-oney-flex {
-    display:flex;
-}
-#payment .payment_methods li .payplug-oney-flex div:first-child {
-    width: 75%;
-}
